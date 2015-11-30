@@ -1,9 +1,4 @@
-http:
-  port: 6083
-  adminPort: 6084
-  
-logging:
-  level: ERROR
-  console:
-    enabled: true
-    threshold: INFO
+couchbase.nodes:
+- http://ukirs031.global.tesco.org:8091/pools
+couchbase.bucket: dwlearning
+couchbase.password: password
