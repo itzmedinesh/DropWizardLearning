@@ -26,5 +26,5 @@ dependencies {
 mainClassName = 'com.dwl.services.App'
 
 run {
-    args 'server'
+    args 'server','local.yml'
 }
